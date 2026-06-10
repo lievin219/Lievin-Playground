@@ -18,4 +18,4 @@ interface User{
        }
        console.log(characters.length)
    }
-   getLength
+   getLength('1234')
