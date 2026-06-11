@@ -37,3 +37,9 @@ interface User{
      }
 
      const user:User=new driving("gakiza",5)
+
+      function Authentication(Credentials:User){
+    
+     console.log(Credentials.name)
+      }
+      Authentication({name:'gakiza',id:22})
